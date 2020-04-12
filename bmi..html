@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>BMI Calculator</title>
+        <script type="text/javascript" src="bmi calculator.js"> </script>
+    </head>
+    <body>
+
+        <div id = "calculator">
+        <h2>BMI calculator</h2>
+        <input type="radio" id="adult" name="grp1" value="adult">Adult</input>
+        <input type="radio" id="child" name="grp1" value="child">Child</input><br><br>
+        <input type="text" id ="weight" placeholder="Enter weight"></input><br><br>
+        <input type="text" id ="height" placeholder="Enter height"></input>
+        <select id ="h1"><option value = "metre">metre</option><br>
+        <option value="inches">inches</option> </select><br><br>
+        <button onclick="bmi()" id="btn1">Calculate</button>
+        <h3>Your BMI is : <span id ="output1"></span></h3>
+        <h3>You are : <span id ="output2"></span></h3>
+        </div>
+        </body>
+</html>
